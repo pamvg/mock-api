@@ -1,5 +1,5 @@
 {
-	"integrations": [
+	"integrations": {
 		"xero": {
 			"name": "Xero",
 			"supported_credentials": [
@@ -26,5 +26,5 @@
 				"secret_key"
 			]
 		}
-	]
+	}
 }
