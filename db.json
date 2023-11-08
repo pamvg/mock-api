@@ -26,5 +26,95 @@
         "secret_key"
       ]
     }
-  }
+  },
+  "internal_data" : [
+    {
+      "category": "Purchase Order",
+      "attributes": [
+        {
+          "id": "po_amount",
+          "name": "Amount"
+        },
+        {
+          "id": "po_date",
+          "name": "Date"
+        }
+      ]
+    },
+    {
+      "category": "Supplier",
+      "attributes": [
+        {
+          "id": "supplier_name",
+          "name": "Name"
+        },
+        {
+          "id": "supplier_code",
+          "name": "Code"
+        }
+      ]
+    },
+    {
+      "category": "Expense",
+      "attributes": [
+        {
+          "id": "expense_type",
+          "name": "Type"
+        },
+        {
+          "id": "expense_name",
+          "name": "Name"
+        }
+      ]
+    }
+  ],
+  "integration_data" : [
+    {
+      "category": "Purchase Order",
+      "attributes": [
+        {
+          "id": "po_amount",
+          "name": "Amount"
+        },
+        {
+          "id": "po_approved_date",
+          "name": "Approved Date"
+        },
+        {
+          "id": "po_submitted_date",
+          "name": "Submitted Date"
+        }
+      ]
+    },
+    {
+      "category": "Account",
+      "attributes": [
+        {
+          "id": "account_name",
+          "name": "Name"
+        },
+        {
+          "id": "account_id",
+          "name": "Id"
+        }
+      ]
+    },
+    {
+      "category": "Invoice",
+      "attributes": [
+        {
+          "id": "invoice_type",
+          "name": "Type"
+        },
+        {
+          "id": "invoice_name",
+          "name": "Name"
+        },
+        {
+          "id": "invoice_date",
+          "name": "Date"
+        }
+      ]
+    }
+  ]
 }
